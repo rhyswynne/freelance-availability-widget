@@ -1,15 +1,5 @@
 Freelance Availability Widget
-=============================
-Contributors: rhyswynne
-Donate link: 
-Tags: freelance, widget, freelancer, developers
-Requires at least: 3.0.1
-Tested up to: 4.9.7
-Requires PHP: 5.6
-Stable tag: trunk
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
- 
+============================= 
 This plugin is a widget to show on sites run by freelancers their availability for paid work.
  
 Description
