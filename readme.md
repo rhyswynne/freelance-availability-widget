@@ -15,4 +15,4 @@ Installation
 ============
 1. Upload the plugin to the /wp-content/plugins/ directory or use the Add New feature
 2. Activate the plugin through the ‘Plugins’ menu in WordPress
-3. Add your widget in the Appearance > wWdgets setting.
+3. Add your widget in the Appearance > Widgets setting.
