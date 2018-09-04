@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Freelance Availability Widget
  * Description: This plugin is a widget to show on sites run by freelancers their availability for work.
- * Plugin URI: https://www.winwar.co.uk/
+ * Plugin URI: https://dwinrhys.com/freelance-availability-widget/?utm_source=plugin-link&utm_medium=plugin&utm_campaign=freelance-availability-widget
  * Author: Dwi'n Rhys
- * Author URI: https://dwinrhys.com/
- * Version: 1.0
+ * Author URI: https://dwinrhys.com/?utm_source=author-link&utm_medium=plugin&utm_campaign=freelance-availability-widget
+ * Version: 1.0.1
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: Text Domain
@@ -15,7 +15,7 @@
 
 defined( 'ABSPATH' ) or exit;
 
-define('FAW_PLUGIN_VERSION', '1.0');
+define('FAW_PLUGIN_VERSION', '1.0.1');
 define('FAW_PLUGIN_PATH',dirname(__FILE__));
 define('FAW_PLUGIN_URL',plugins_url('', __FILE__));
 
