@@ -3,7 +3,7 @@ Contributors: rhyswynne
 Donate link: 
 Tags: freelance, widget, freelancer, developers
 Requires at least: 3.0.1
-Tested up to: 4.9.7
+Tested up to: 5.1
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -34,7 +34,13 @@ This project is now on github, [you can view the repository here](https://github
 2. Activate the plugin through the ‘Plugins’ menu in WordPress
 3. Add your widget in the Appearance > wWdgets setting.
  
+== Screenshots ==
+1. The example of the widget, on Twenty Fifteen.
+
 == Changelog ==
+
+= 1.1 =
+* Introduced the ability to change button text.
 
 = 1.0.1 =
 * Tried bumping the version number, to see if it updates.
