@@ -3,7 +3,7 @@ Contributors: rhyswynne
 Donate link: 
 Tags: freelance, widget, freelancer, developers
 Requires at least: 3.0.1
-Tested up to: 5.1
+Tested up to: 6.2
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -38,6 +38,14 @@ This project is now on github, [you can view the repository here](https://github
 1. The example of the widget, on Twenty Fifteen.
 
 == Changelog ==
+= 1.1.3 =
+* Tested with 6.2
+
+= 1.1.2 =
+* Tested with 5.3
+
+= 1.1.1 =
+* Tested with 5.2
 
 = 1.1 =
 * Introduced the ability to change button text.
