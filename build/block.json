@@ -1,0 +1,82 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "freelance-availability-widget/freelance-availability-widget",
+  "version": "0.1.0",
+  "title": "Freelance Availablity Widget",
+  "category": "widgets",
+  "icon": "calendar-alt",
+  "description": "This plugin is a widget to show on sites run by freelancers their availability for work.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "freelance-availability-widget",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "widgetAvailableTitle": {
+      "type": "string"
+    },
+    "widgetAvailableText": {
+      "type": "string"
+    },
+    "widgetAvailableURL": {
+      "type": "string"
+    },
+    "widgetAvailableButtonText": {
+      "type": "string"
+    },
+    "widgetAvailableGlobalDateOverride": {
+      "type": "boolean"
+    },
+    "widgetAvailableDate": {
+      "type": "string"
+    },
+    "widgetSoonTitle": {
+      "type": "string"
+    },
+    "widgetSoonText": {
+      "type": "string"
+    },
+    "widgetSoonURL": {
+      "type": "string"
+    },
+    "widgetSoonButtonText": {
+      "type": "string"
+    },
+    "widgetSoonGlobalDateOverride": {
+      "type": "boolean"
+    },
+    "widgetSoonDate": {
+      "type": "string"
+    },
+    "widgetUnavailableTitle": {
+      "type": "string"
+    },
+    "widgetUnavailableText": {
+      "type": "string"
+    }
+  },
+  "usesContext": [
+    "postId",
+    "postType"
+  ],
+  "example": {
+    "attributes": {
+      "widgetAvailableTitle": "I am available!",
+      "widgetAvailableText": "I am available for hire, please click the link below.",
+      "widgetAvailableURL": "",
+      "widgetAvailableButtonText": "Click Here",
+      "widgetSoonTitle": "I am available soon!",
+      "widgetSoonText": "I am soon available for hire, please click the link below",
+      "widgetSoonURL": "",
+      "widgetSoonButtonText": "Click Here",
+      "widgetUnvailableTitle": "I am Unavailable!",
+      "widgetUnvailableText": "I am currently unavailable",
+      "widgetUnvailableURL": "",
+      "widgetUnvailableButtonText": "Click Here"
+    }
+  }
+}

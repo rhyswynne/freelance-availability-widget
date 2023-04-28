@@ -1,0 +1,42 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-freelance-availability-widget-freelance-availability-widget {
+	border: 1px dotted #CCCCCC;
+	padding: 15px;
+}
+
+.faw-admin-availability-box {
+	border: 1px solid #CCCCCC;
+	padding: 15px;
+	margin-bottom: 15px;
+
+	h2.faw-heading {
+		font-size: 16px;
+		text-transform: uppercase;
+		margin-top: 0px;
+		font-weight: 700;
+	}
+
+	p.faw-admin-notice {
+		font-size: 14px;
+		font-style: italic;
+		color: #333;
+		margin-bottom: 0px;
+	}
+
+	&.faw-availability-box-available {
+		background-color: #EFE;
+	}
+
+	&.faw-availability-box-soon {
+		background-color: #FFE;
+	}
+
+	&.faw-availability-box-unavailable {
+		background-color: #FEE;
+	}
+}

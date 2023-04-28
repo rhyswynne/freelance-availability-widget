@@ -9,10 +9,16 @@ This plugin allows you to display a widget on any widget enabled area on your Wo
 
 You can choose to add a contact form or a URL to a contact us page.
 
-You can see it in action on my [Winwar Media](https://www.winwar.co.uk) and [Rhys Wynne](https://www.rhyswynne.co.uk) site, for my freelance WordPress development business, [Dwi'n Rhys](https://dwinrhys.com).
+There is also a shortcode for showing the global availablity. 
+
+You can see it in action on my site for my freelance WordPress development business, [Dwi'n Rhys](https://dwinrhys.com).
 
 Installation
 ============
-1. Upload the plugin to the /wp-content/plugins/ directory or use the Add New feature
-2. Activate the plugin through the ‘Plugins’ menu in WordPress
-3. Add your widget in the Appearance > Widgets setting.
+1. Upload the plugin to the /wp-content/plugins/ directory or use the Add New feature.
+2. Activate the plugin through the ‘Plugins’ menu in WordPress.
+3. Go to Settings > Freelance Availablity Widget to set when you are available soon or available.
+4. Search for the "Freelance Availablity Widget" in the WordPress block editor. 
+
+
+For full setup instructions, pleae review the [Freelance Availablity Widget Documentation](https://dwinrhys.com/freelance-availability-widget/).

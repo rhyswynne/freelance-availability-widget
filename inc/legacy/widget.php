@@ -12,7 +12,7 @@ if ( !function_exists( 'register_sidebar_widget' ) || !function_exists( 'registe
 class Freelance_Availability_Widget_Class extends WP_Widget {
 
 	public function __construct() {
-		parent::__construct( 'faw_freelance_availability_widget', 'Freelance Availability', array( 'description' => 'Widget to Show on your Site if you are available for freelance work' ) );
+		parent::__construct( 'faw_freelance_availability_widget', 'Freelance Availability - Legacy Widget', array( 'description' => 'Widget to Show on your Site if you are available for freelance work' ) );
 	}
 
 
