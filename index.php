@@ -5,7 +5,7 @@
  * Plugin URI: https://dwinrhys.com/freelance-availability-widget/?utm_source=plugin-link&utm_medium=plugin&utm_campaign=freelance-availability-widget
  * Author: Dwi'n Rhys
  * Author URI: https://dwinrhys.com/?utm_source=author-link&utm_medium=plugin&utm_campaign=freelance-availability-widget
- * Version: 2.0
+ * Version: 2.1
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: freelanceavailabilitywidget

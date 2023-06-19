@@ -38,9 +38,17 @@ This project is now on github, [you can view the repository here](https://github
 For full setup instructions, pleae review the [Freelance Availablity Widget Documentation](https://dwinrhys.com/freelance-availability-widget/?utm_source=wordpress-readme&utm_medium=plugin&utm_campaign=freelance-availability-widget).
  
 == Screenshots ==
-1. The example of the widget, on Twenty Fifteen.
+1. The example of the widget, showing the "Soon" data, on a custom theme.
+2. The block settings in the Gutenberg Sidebar.
+3. The block within Gutenberg.
+4. The global settings page.
+5. The shortcode, showing on a custom theme.
+6. The legacy widget, in the Twenty Fifteen WordPress theme.
 
 == Changelog ==
+= 2.1 =
+* Allow the ability to show different text if the timestamp of the shortcode has passed.
+
 = 2.0 =
 * Fully compatible with Gutenberg with a new block layout.
 * Added the ability to have all widgets linked to one availability & available soon date.
