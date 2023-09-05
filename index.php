@@ -15,7 +15,7 @@
 
 defined( 'ABSPATH' ) or exit;
 
-define('FAW_PLUGIN_VERSION', '2.0');
+define('FAW_PLUGIN_VERSION', '2.1');
 define('FAW_PLUGIN_PATH',dirname(__FILE__));
 define('FAW_PLUGIN_URL',plugins_url('', __FILE__));
 

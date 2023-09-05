@@ -3,7 +3,7 @@ Contributors: rhyswynne
 Donate link: 
 Tags: freelance, widget, freelancer, developers, gutenberg, shortcode
 Requires at least: 3.0.1
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -48,6 +48,8 @@ For full setup instructions, pleae review the [Freelance Availablity Widget Docu
 == Changelog ==
 = 2.1 =
 * Allow the ability to show different text if the timestamp of the shortcode has passed.
+* Fixed a small bug in the plugin that caused a display warning when WP_DEBUG was on
+* Tested with 6.3
 
 = 2.0 =
 * Fully compatible with Gutenberg with a new block layout.

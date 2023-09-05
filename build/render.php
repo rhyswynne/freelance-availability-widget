@@ -10,8 +10,17 @@ if ( array_key_exists( 'faw_global_available_soon', $global_available_settings )
 	$globalavailabledatesoon = esc_attr( $global_available_settings['faw_global_available_soon'] );
 }
 
-$availabledate = $attributes['widgetAvailableGlobalDateOverride'] ? $attributes['widgetAvailableDate'] : $globalavailabledate;
-$soondate      = $attributes['widgetSoonGlobalDateOverride']      ? $attributes['widgetSoonDate'] : $globalavailabledatesoon;
+if (array_key_exists('widgetAvailableGlobalDateOverride', $attributes)) {
+	$availabledate = $attributes['widgetAvailableGlobalDateOverride'] ? $attributes['widgetAvailableDate'] : $globalavailabledate;
+} else {
+	$availabledate = $globalavailabledate;
+}
+
+if (array_key_exists('widgetSoonGlobalDateOverride', $attributes)) {
+	$soondate = $attributes['widgetSoonGlobalDateOverride']      ? $attributes['widgetSoonDate'] : $globalavailabledatesoon;
+} else {
+	$soondate = $globalavailabledatesoon;
+}
 
 $avialability = faw_get_data_to_return($availabledate, $soondate);
 
