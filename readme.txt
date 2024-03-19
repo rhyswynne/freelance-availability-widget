@@ -1,9 +1,9 @@
 === Freelance Availability Widget ===
 Contributors: rhyswynne
 Donate link: 
-Tags: freelance, widget, freelancer, developers, gutenberg, shortcode
+Tags: freelance, widget, freelancer, gutenberg, shortcode
 Requires at least: 3.0.1
-Tested up to: 6.3
+Tested up to: 6.5
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
@@ -46,6 +46,14 @@ For full setup instructions, pleae review the [Freelance Availablity Widget Docu
 6. The legacy widget, in the Twenty Fifteen WordPress theme.
 
 == Changelog ==
+= 2.2.1 =
+* Tested with 6.5
+
+= 2.2 =
+* Added the approximation item ~ (tilde), allowing you to show early/mid/late for months.
+* Added the capitalize-first attribute to shortcodes, allowing you to capitalize the first letter of the shortcode string.
+* Tested with 6.4
+
 = 2.1 =
 * Allow the ability to show different text if the timestamp of the shortcode has passed.
 * Fixed a small bug in the plugin that caused a display warning when WP_DEBUG was on
