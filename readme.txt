@@ -3,9 +3,9 @@ Contributors: rhyswynne
 Donate link: 
 Tags: freelance, widget, freelancer, gutenberg, shortcode
 Requires at least: 3.0.1
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 2.2.2
+Stable tag: 2.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
  
@@ -46,6 +46,9 @@ For full setup instructions, pleae review the [Freelance Availablity Widget Docu
 6. The legacy widget, in the Twenty Fifteen WordPress theme.
 
 == Changelog ==
+= 2.2.3 =
+* Tested with 6.7
+
 = 2.2.2 =
 * Tested with 6.6
 
