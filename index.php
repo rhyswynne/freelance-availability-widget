@@ -5,7 +5,7 @@
  * Plugin URI: https://dwinrhys.com/freelance-availability-widget/?utm_source=plugin-link&utm_medium=plugin&utm_campaign=freelance-availability-widget
  * Author: Dwi'n Rhys
  * Author URI: https://dwinrhys.com/?utm_source=author-link&utm_medium=plugin&utm_campaign=freelance-availability-widget
- * Version: 2.2.3
+ * Version: 2.2.4
  * License: GPL2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: freelanceavailabilitywidget
@@ -15,7 +15,7 @@
 
 defined( 'ABSPATH' ) or exit;
 
-define('FAW_PLUGIN_VERSION', '2.2.3');
+define('FAW_PLUGIN_VERSION', '2.2.4');
 define('FAW_PLUGIN_PATH',dirname(__FILE__));
 define('FAW_PLUGIN_URL',plugins_url('', __FILE__));
 
