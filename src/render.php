@@ -27,12 +27,12 @@ $avialability = faw_get_data_to_return($availabledate, $soondate);
 if ('available' == $avialability) {
 	$title      = $attributes['widgetAvailableTitle'];
 	$text       = $attributes['widgetAvailableText'];
-	$buttontext = $attributes['widgetAvailableButtonText'];
+	$buttontext = array_key_exists( 'widgetAvailableButtonText', $attributes ) ? $attributes['widgetAvailableButtonText'] : false;
 	$buttonurl  = $attributes['widgetAvailableURL'];
 } elseif ('soon' == $avialability) {
 	$title = $attributes['widgetSoonTitle'];
 	$text  = $attributes['widgetSoonText'];
-	$buttontext = $attributes['widgetSoonButtonText'];
+	$buttontext = array_key_exists( 'widgetSoonButtonText', $attributes ) ? $attributes['widgetSoonButtonText'] : false;
 	$buttonurl  = $attributes['widgetSoonURL'];
 } else {
 	$title = $attributes['widgetUnavailableTitle'];
